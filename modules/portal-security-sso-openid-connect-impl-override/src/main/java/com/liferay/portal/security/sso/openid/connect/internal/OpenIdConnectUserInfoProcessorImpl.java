@@ -56,7 +56,7 @@ public class OpenIdConnectUserInfoProcessorImpl
         _log.warn("OpenIdConnectUserInfoProcessorImpl.class emailAddress() --------------------------");
 
         _log.warn("OpenIdConnectUserInfoProcessorImpl.class userInfo.toString() --------------------------{}", userInfo.toString());
-        _log.warn("OpenIdConnectUserInfoProcessorImpl.class SURESH @@@@@@@@@ ----------companyId----------------{}", companyId);
+        _log.warn("OpenIdConnectUserInfoProcessorImpl.class  @@@@@@@@@ ----------companyId----------------{}", companyId);
 
         User user = _userLocalService.fetchUserByEmailAddress(
                 companyId, emailAddress);
