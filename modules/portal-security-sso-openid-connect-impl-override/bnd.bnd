@@ -1,0 +1,15 @@
+Bundle-Name: Liferay Portal Security SSO OpenID Connect Implementation
+Bundle-SymbolicName: com.liferay.portal.security.sso.openid.connect.impl
+Bundle-Version: 4.0.48
+Import-Package:\
+	!com.google.crypto.tink.*,\
+	!net.shibboleth.utilities.*,\
+	!org.bouncycastle.*,\
+	!org.cryptomator.siv.*,\
+	!org.joda.time.*,\
+	!org.opensaml.*,\
+	*
+
+-dsannotations-options: inherit
+
+-includeresource: @com.liferay.portal.security.sso.openid.connect.impl-4.0.48.jar!/!com/liferay/portal/security/sso/openid/connect/internal/OpenIdConnectUserInfoProcessorImpl.class

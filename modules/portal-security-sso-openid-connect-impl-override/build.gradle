@@ -1,0 +1,18 @@
+dependencies {
+
+	// This is the artifact that we will be overriding...
+	compile group: "com.liferay", name: "com.liferay.portal.security.sso.openid.connect.impl"
+
+	compileOnly group: "org.osgi", name: "org.osgi.core"
+	compileOnly group: "org.osgi", name: "org.osgi.service.component.annotations"
+
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+	compileOnly group: "org.slf4j", name: "slf4j-api", version: "1.7.26"
+
+	compileOnly group: "com.nimbusds", name: "lang-tag", version: "1.4.4"
+	compileOnly group: "com.nimbusds", name: "nimbus-jose-jwt", version: "7.9"
+	compileOnly group: "com.nimbusds", name: "oauth2-oidc-sdk", version: "6.16.2"
+
+}
+
+jar.archiveName = 'com.liferay.portal.security.sso.openid.connect.impl.jar'
